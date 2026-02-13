@@ -11,7 +11,7 @@ This system simulates real-world banking operations with a focus on security, pe
 
 The project allows managing users, clients, accounts, deposits, withdrawals, and bank transfers, while tracking and auditing all actions.
 
-🚀 Features
+🚀 Features :
 
 👤 User Management System (Admin & normal users)
 
@@ -57,7 +57,7 @@ Tracks who logged in, when, and what operations were performed
 
 📖 Clear and detailed documentation in README
 
-🛠 Technologies & Concepts
+🛠 Technologies & Concepts :
 
 C++
 
