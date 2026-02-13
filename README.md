@@ -1,12 +1,12 @@
-:
 
-🏦 Banking System – Console Application
+
+🏦 Banking System – Console Application:
 
 A console-based Banking System that simulates real-world banking operations with a strong focus on security, permissions, and data integrity.
 
 The project was built to deeply understand system design and apply Object-Oriented Programming (OOP) principles in a practical, real-world scenario.
 
-🚀 Key Features
+🚀 Key Features:
 
 Secure authentication with encrypted passwords
 
@@ -22,7 +22,7 @@ File-based data persistence
 
 Detailed logging and auditing of system activities
 
-🛠 Technologies & Concepts
+🛠 Technologies & Concepts:
 
 Object-Oriented Programming (OOP)
 
