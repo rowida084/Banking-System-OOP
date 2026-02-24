@@ -1,72 +1,80 @@
-💳 Banking System – Console Application
+# 🏦 Banking System – Console Application
 
+## 📌 Overview
+A console-based **Banking System** built in **C++** using **Object-Oriented Programming (OOP)** and **file handling**.  
+This system simulates real-world banking operations with a strong focus on **security**, **permissions**, **validated transactions**, and **data integrity**.
 
+The project allows managing **users**, **clients**, **accounts**, **deposits**, **withdrawals**, and **bank transfers**, while tracking and auditing all actions.
 
+---
 
+## 🚀 Features
 
+### 👤 User Management System
+- Admin & normal users
+- Role-Based Access Control (RBAC)
+- Admins have full control
+- Normal users have restricted permissions
 
-📌 Overview
-A console-based Banking System built in C++ using Object-Oriented Programming (OOP) and file handling.
-This system simulates real-world banking operations with a focus on security, permissions, validated transactions, and data integrity.
+### 👥 Client Management
+- ➕ Add a new client
+- ✏️ Update client information
+- ❌ Delete an existing client
+- 📋 Show all client details
 
-The project allows managing users, clients, accounts, deposits, withdrawals, and bank transfers, while tracking and auditing all actions.
+### 💳 Account & Transactions
+- Bank accounts per client with balance tracking
+- 💰 Deposit money into an account
+- 💸 Withdraw money from an account
+- 🔁 Bank transfers with full validation & atomic execution
 
-🚀 Features :
+### ✅ Transfer Logging
+Every transfer is logged with:
+- Sender account (from)
+- Receiver account (to)
+- Amount
+- User performing the transfer
+- Date & time
 
-👤 User Management System (Admin & normal users)
+### 🛡 Security
+- Secure login system
+- Encrypted / hashed passwords
+- Permission checks before every operation
 
-🔑 Role-Based Access Control (admins full control, normal users restricted)
+### 🧾 Activity Logging & Auditing
+- Every user action is recorded in a file
+- Tracks:
+  - Who logged in
+  - When the login occurred
+  - What operations were performed
 
-➕ Add a new client
+### 🐛 Improvements
+- Fixed bugs in user management
+- Fixed bugs in client management
+- Improved validation & stability
 
-✏️ Update client information
+### 📖 Documentation
+- Clear and detailed documentation in README
 
-❌ Delete an existing client
+---
 
-💳 Bank accounts per client with balance tracking
+## 🛠 Technologies & Concepts
 
-💰 Deposit money into an account
+- **C++**
+- **Object-Oriented Programming (OOP)**
+- **File Handling & Encryption**
+- **Input Validation & Error Handling**
+- **Role-Based Access Control (RBAC)**
+- **Logging & Auditing**
 
-💸 Withdraw money from an account
+---
 
-🔁 Bank transfers with full validation & atomic execution
+## 📊 Languages
+- **C++** – 99.9%
+- **C** – 0.1%
 
-✅ Every transfer is logged with:
+---
 
-Sender account (from)
-
-Receiver account (to)
-
-Amount
-
-User performing the transfer
-
-Date & time
-
-🛡 Secure login system with encrypted passwords
-
-🧾 Activity Logging & Auditing
-
-Every user action is recorded in a file
-
-Tracks who logged in, when, and what operations were performed
-
-📋 Show all client details
-
-🐛 Fixed bugs in user & client management
-
-📖 Clear and detailed documentation in README
-
-🛠 Technologies & Concepts :
-
-C++
-
-Object-Oriented Programming (OOP)
-
-File Handling & Encryption
-
-Input Validation & Error Handling
-
-Role-Based Access Control (RBAC)
-
-Logging & Auditing
+## 👨‍💻 Author
+**Rowida Hany**  
+Backend Developer
